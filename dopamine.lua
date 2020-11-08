@@ -1,15 +1,3 @@
---[[
-	
-	Dear negroids
-	
-	hello my friends, i am back again, this time with dopamine!
-	
-	here is lux as well: https://anonfile.com/B2Y3B2t2oe/lux_v1.0.2_lua
-	
-	Sincerely,
-	
-	swag master
-]]
 local _print=print
 
 print = function(msg)
@@ -3018,6 +3006,7 @@ function Dopamine.OpenMenu(Wy2HuhjnUT)
         PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", true)
         RAmmfIbUBx(Wy2HuhjnUT, true)
         wBQ8ncN2OyoKWmCo(tostring(Wy2HuhjnUT) .. " menu opened")
+	print 'Stay Fast'
     else
         wBQ8ncN2OyoKWmCo("Failed to open " .. tostring(Wy2HuhjnUT) .. " menu: it doesn't exist")
     end
